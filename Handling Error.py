@@ -18,7 +18,7 @@ while True:
 def hour(m):
     if m>0:
         hour=m//60
-        minute=(m%60)*30
+        minute=m%60
         return hour,minute
 i,j=hour(m)        
 print("{} hour {} minutes".format(i,j))        
