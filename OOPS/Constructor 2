@@ -1,0 +1,12 @@
+class student(object):
+    def __init__(self, name,branch,year):
+        self.name=name
+        self.branch=branch
+        self.year=year
+        print("A student object is created")
+    def print_details(self):
+        print("name:",self.name)
+        print("branch:",self.branch)
+        print("year:",self.year)
+obj=student("Nancy", "ECE", 2017)
+print(obj.print_details())
