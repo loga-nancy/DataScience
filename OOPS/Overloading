@@ -1,0 +1,23 @@
+#Overloading
+
+#Two method cannot have same name in python
+
+#add(2,3)
+#add(2,3,4)
+#(positional argument error)
+
+#-> Same function with different parameter
+
+
+class sum:
+    def add(self, a=None,b=None,c=None):
+        if a!=None and b!=None and c!=None:
+            s=a+b+c
+        elif a!=None and b!=None:
+            s=a+b
+        elif a!=None:
+            s=a
+        return s
+obj=sum()
+print(obj.add(2,3,4))
+    
