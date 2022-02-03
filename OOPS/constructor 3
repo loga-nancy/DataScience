@@ -1,0 +1,28 @@
+"""Create a two vehicles called car1 and car2. Set car1 to be  a red convertible worth $70000 with
+a name of Ferrari, and car2 to be a blue van named JEEP worth $15000"""
+
+class vehicle(object):
+    def __init__(self,name,worth,colour):
+        self.name=name
+        self.worth=worth
+        self.colour=colour
+        
+
+    def car1(self):
+        print("Details of car1:")
+        print("Car name:",self.name)
+        print("Car worth:",self.worth)
+        print("Car colour:",self.colour)
+    def car2(self):
+        print("Details of car2:")
+        print("Car name:",self.name)
+        print("Car worth:",self.worth)
+        print("Car colour:",self.colour)
+obj1=vehicle('"Ferrari','red',70000)
+obj2=vehicle('JEEP','blue',15000)
+
+print(obj1.car1())
+print(obj2.car2())
+
+    
+
