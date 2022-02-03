@@ -1,0 +1,13 @@
+#Overriding
+
+#Overriding can be perform using inheritance
+# overide new feature from old method
+
+class A:
+    def show(self):
+        print("In a show")
+class B(A):
+    def show(self):
+        print("In B show")
+b1=B()
+b1.show()
