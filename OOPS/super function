@@ -1,0 +1,14 @@
+#super() function used to call method from parent class
+
+class vehicle:
+    def start(self):
+        print("Starting engine")
+    def stop(self):
+        print("Stopping engine")
+class Twowheeler(vehicle):
+    def say(self):
+        super().start()
+        print("I have twowheels")
+        super().stop()
+a=Twowheeler()
+a.say()
