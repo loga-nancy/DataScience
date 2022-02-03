@@ -1,0 +1,10 @@
+def abc(a,b):
+    try:
+        c=((a+b)/(a-b))
+    except ZeroDivisionError:
+        print(" division not possible")
+    else:
+        print(c)
+
+abc(3.0,3.0)
+abc(2.0,3.0)
