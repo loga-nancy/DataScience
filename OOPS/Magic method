@@ -1,0 +1,20 @@
+#__inti__ used to initialize variable
+class fruit:
+    def __int__(self):
+        self.name="Nancy"
+    def me(self):
+        print("My name is ", self.name)
+obj=fruit()
+print(obj.me())
+
+#__len__ used to print number
+class fruit:
+    def __len__(self):
+        return 10
+print(fruit())
+
+#__str__ used to print str values
+class fruit:
+    def __str__(self):
+        return "10"
+print(fruit())
