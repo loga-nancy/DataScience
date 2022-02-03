@@ -1,3 +1,11 @@
+"""bulit in exception error:
+1:ZerodivisionError 1/0
+2:IndexError - when index is out of range
+3:NameError - when variable not found
+4:SyntaxError - raise by parser when a syntax error is encountered"""
+
+
+
 import time
 
 m=0
