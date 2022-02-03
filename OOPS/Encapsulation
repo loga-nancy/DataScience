@@ -1,0 +1,13 @@
+# _hi  -> protected
+#__hi  -> private. To call private method, using obj._classname__methodname
+
+class car:
+    def __init__(self):
+        self.__updatesoftware()
+    def drive(self):
+        print("driving")
+    def __updatesoftware(self):
+        print("updating software")
+obj=car()
+obj.drive()
+obj._car__updatesoftware()
